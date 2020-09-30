@@ -49,7 +49,7 @@ zplugin ice wait"0" blockf lucid
 zplugin load zsh-users/zsh-completions
 
 zplugin ice wait"0" atinit"zpcompinit; zpcdreplay" lucid
-zplugin light zdharma/fast-syntax-highlighting
+#zplugin light zdharma/fast-syntax-highlighting
 
 zplugin ice wait"0" atload"_zsh_autosuggest_start" lucid
 zplugin light zsh-users/zsh-autosuggestions
